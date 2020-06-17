@@ -1,4 +1,4 @@
-# python_metis
+# Metis for Python
 Just a modified package from official "METIS for Python" to support lastest networkx.
 Should support all features.
 
@@ -13,6 +13,14 @@ You need to install **metis** first for this wrapper.
 You are ready to use this wrapper
 ```
 pip3 install metis-python
+```
+
+## Usage
+```
+import metispy as metis
+
+G = metis.example_networkx()
+(edgecuts, parts) = metis.part_graph(G, 3)
 ```
 
 ## Test

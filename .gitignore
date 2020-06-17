@@ -6,3 +6,5 @@ venv
 
 # cache
 __pycache__
+dist
+metis-python.egg-info
