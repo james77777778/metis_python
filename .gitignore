@@ -1,0 +1,8 @@
+# pypirc
+.pypirc
+
+# venv
+venv
+
+# cache
+__pycache__
